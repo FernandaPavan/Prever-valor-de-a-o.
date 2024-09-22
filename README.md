@@ -6,24 +6,23 @@ Neste projeto, utilizamos a biblioteca Prophet do Facebook para realizar anális
 ### **Sobre o Projeto**
 O mercado de ações é volátil e altamente imprevisível. No entanto, com o avanço da tecnologia e o acesso a dados históricos, tornou-se possível aplicar técnicas de aprendizado de máquina para prever os movimentos futuros do mercado com certa precisão. Neste projeto, exploramos essa ideia, utilizando duas poderosas ferramentas:
 
-**Prophet:** Desenvolvido pelo Facebook, o Prophet é uma biblioteca de análise de séries temporais que permite realizar previsões precisas e automatizadas com base em tendências sazonais e feriados.
+* **Prophet:** Desenvolvido pelo Facebook, o Prophet é uma biblioteca de análise de séries temporais que permite realizar previsões precisas e automatizadas com base em tendências sazonais e feriados.
 
-**Yahoo Finance API:** A Yahoo Finance oferece uma API robusta para acessar uma ampla variedade de dados financeiros, incluindo preços históricos de ações, informações sobre empresas e muito mais.
+* **Yahoo Finance API:** A Yahoo Finance oferece uma API robusta para acessar uma ampla variedade de dados financeiros, incluindo preços históricos de ações, informações sobre empresas e muito mais.
 
 ### **Objetivo**
 O principal objetivo deste projeto é desenvolver um modelo de previsão que possa prever o valor futuro de uma determinada ação com base em seus dados históricos. Utilizaremos a biblioteca Prophet para construir e treinar nosso modelo, enquanto os dados serão adquiridos por meio da API do Yahoo Finance.
 
+
 ### **Descrição do Projeto**
 
-**Coleta de Dados:** Utilizaremos a API do Yahoo Finance para obter os dados históricos da ação que desejamos prever.
+1.  **Coleta de Dados:** Utilizaremos a API do Yahoo Finance para obter os dados históricos da ação que desejamos prever.
+2.  **Pré-processamento dos Dados:** Os dados brutos obtidos serão processados e preparados para serem alimentados ao modelo Prophet.
+3. ️ **Construção do Modelo:** Utilizaremos a biblioteca Prophet para construir nosso modelo de previsão com base nos dados históricos.
+4. ️ **Treinamento do Modelo:** O modelo será treinado com os dados históricos para aprender os padrões e tendências presentes nos dados.
+5.  **Previsão do Valor Futuro:** Finalmente, faremos previsões do valor futuro da ação com base no modelo treinado.
 
-**Pré-processamento dos Dados:** Os dados brutos obtidos serão processados e preparados para serem alimentados ao modelo Prophet.
 
-**Construção do Modelo:** Utilizaremos a biblioteca Prophet para construir nosso modelo de previsão com base nos dados históricos.
-
-**Treinamento do Modelo:** O modelo será treinado com os dados históricos para aprender os padrões e tendências presentes nos dados.
-
-**Previsão do Valor Futuro:** Finalmente, faremos previsões do valor futuro da ação com base no modelo treinado.
 
 ## **Resultados Esperados**
 Espera-se que, ao final deste projeto, tenhamos um modelo de previsão robusto e preciso que seja capaz de prever o valor futuro de uma ação com base em seus dados históricos. Isso pode ser extremamente útil para investidores e traders que desejam tomar decisões informadas no mercado de ações.
