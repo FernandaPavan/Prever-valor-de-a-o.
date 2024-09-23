@@ -24,7 +24,7 @@ O principal objetivo deste projeto é desenvolver um modelo de previsão que pos
 
 
 
-## **Resultados Esperados**
+## **Resultados**
 Espera-se que, ao final deste projeto, tenhamos um modelo de previsão robusto e preciso que seja capaz de prever o valor futuro de uma ação com base em seus dados históricos. Isso pode ser extremamente útil para investidores e traders que desejam tomar decisões informadas no mercado de ações.
 
 Modelo previsto!
