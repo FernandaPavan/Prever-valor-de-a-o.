@@ -1,7 +1,8 @@
 ## **Previsão do Valor Futuro de Ações**
 
-### **Introdução**
-Neste projeto, utilizamos a biblioteca Prophet do Facebook para realizar análises preditivas e a biblioteca Yahoo Finance para buscar dados de ações. O objetivo principal é prever o valor futuro de uma ação com base em dados históricos.
+### **Objetivo**
+O principal objetivo deste projeto é desenvolver um modelo de previsão que possa prever o valor futuro de uma determinada ação com base em seus dados históricos. Utilizaremos a biblioteca Prophet para construir e treinar nosso modelo, enquanto os dados serão adquiridos por meio da API do Yahoo Finance.
+
 
 ### **Sobre o Projeto**
 O mercado de ações é volátil e altamente imprevisível. No entanto, com o avanço da tecnologia e o acesso a dados históricos, tornou-se possível aplicar técnicas de aprendizado de máquina para prever os movimentos futuros do mercado com certa precisão. Neste projeto, exploramos essa ideia, utilizando duas poderosas ferramentas:
@@ -9,9 +10,6 @@ O mercado de ações é volátil e altamente imprevisível. No entanto, com o av
 * **Prophet:** Desenvolvido pelo Facebook, o Prophet é uma biblioteca de análise de séries temporais que permite realizar previsões precisas e automatizadas com base em tendências sazonais e feriados.
 
 * **Yahoo Finance API:** A Yahoo Finance oferece uma API robusta para acessar uma ampla variedade de dados financeiros, incluindo preços históricos de ações, informações sobre empresas e muito mais.
-
-### **Objetivo**
-O principal objetivo deste projeto é desenvolver um modelo de previsão que possa prever o valor futuro de uma determinada ação com base em seus dados históricos. Utilizaremos a biblioteca Prophet para construir e treinar nosso modelo, enquanto os dados serão adquiridos por meio da API do Yahoo Finance.
 
 
 ### **Descrição do Projeto**
@@ -25,7 +23,8 @@ O principal objetivo deste projeto é desenvolver um modelo de previsão que pos
 
 
 ## **Resultados**
-Espera-se que, ao final deste projeto, tenhamos um modelo de previsão robusto e preciso que seja capaz de prever o valor futuro de uma ação com base em seus dados históricos. Isso pode ser extremamente útil para investidores e traders que desejam tomar decisões informadas no mercado de ações.
+O modelo Prophet foi capaz de gerar previsões para o valor da ação.
+<br>
 
 Modelo previsto!
 ![previsao](https://github.com/FernandaPavan/Prever-valor-de-acao./assets/110939025/18437ad5-a8e1-4fd0-b342-c90ddd5e20d4)
@@ -42,4 +41,4 @@ Em abril, houve uma breve recuperação até 05 de abril, seguida por uma nova q
 Essa movimentação pode ser atribuída a uma série de fatores, incluindo resultados financeiros, sentimentos do mercado e notícias sobre a empresa. <br>
 
 ## **Conclusão**
-Este projeto representa uma aplicação prática e interessante das técnicas de análise de séries temporais e aprendizado de máquina no contexto financeiro. A capacidade de prever o valor futuro de uma ação pode ter um impacto significativo nas decisões de investimento e, esperamos, este projeto possa ser útil para aqueles interessados em explorar esse campo.
+Este projeto demonstra uma aplicação de modelos de séries temporais, como o Prophet, para prever os preços futuros de ações. Ao combinar técnicas de aprendizado de máquina com dados históricos, este trabalho oferece uma ferramenta valiosa para investidores e pesquisadores. As previsões geradas podem auxiliar na tomada de decisões mais informadas sobre compra, venda e alocação de ativos, contribuindo para a otimização de portfólios.
